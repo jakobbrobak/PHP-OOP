@@ -23,9 +23,9 @@ echo $this->seat_count;
 
 $bmw = new Cars();
 
-// echo $bmw->wheel_count;
-// echo $bmw->door_count;
-// echo $bmw->seat_count;
+//echo $bmw->wheel_count;
+//echo $bmw->door_count;
+//echo $bmw->seat_count;
 
 $bmw->car_detail();
 
