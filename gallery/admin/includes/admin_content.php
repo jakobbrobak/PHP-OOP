@@ -26,6 +26,12 @@
             echo $user_found['last_name'] . "<br>"; 
 
         
+
+            $test = User::instantiation($user_found);
+
+            echo $test->username . "<br>"; 
+
+        
         
 
 
