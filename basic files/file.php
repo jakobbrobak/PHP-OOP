@@ -27,6 +27,16 @@ if(is_file(__FILE__)) {
     echo "No" . "<br>";
 }
 
+if(is_dir(__FILE__)) {
+
+    echo "Yes" . "<br>";
+} else {
+
+    echo "No" . "<br>";
+}
+
+echo is_file(__LINE__) ? "Yes" : "No"; 
+
 
 
 
