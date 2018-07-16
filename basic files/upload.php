@@ -1,12 +1,6 @@
 <?php 
 
 if(isset($_POST['submit'])) {
-echo "<pre>";
-
-print_r($_FILES['file_upload']);
-
-echo "<pre>";
-
 
  $upload_errors = array(
 
@@ -28,9 +22,24 @@ echo "<pre>";
     
     );
 
-    $the_error = $_FILES['file_upload']['error'];
+    $temp_name = $_FILES['file_upload']['tmp_name'];
+    $the_file = $_FILES['file_upload']['name'];
+    $directory = "uploads";
 
-    $the_message = $upload_errors[$the_error];
+    if(move_uploaded_file($temp_name, $directory . "/" . $the_file)) {
+
+         $the_message = "File uploaded successfully :)";
+
+    } else {
+        
+        
+        $the_error = $_FILES['file_upload']['error'];
+
+        $the_message = $upload_errors[$the_error];
+        
+
+    }
+
 
 }
 
