@@ -11,23 +11,23 @@
 
         <?php 
 
-        // $user = new User();
+        $user = new User();
 
-        // $user->username = "JaX";
-        // $user->password = "test";
-        // $user->first_name = "Jakob";
-        // $user->last_name = "Brobak";
+        $user->username = "Jensen";
+        $user->password = "adsf";
+        $user->first_name = "Hans";
+        $user->last_name = "Petersen";
 
-        // $user->create();
+        $user->create();
         
         // $user = User::find_user_by_id(4); 
         // $user->password = "12345";
         // $user->save();
         
 
-        $user = new User();
-        $user->username = "Kasper";
-        $user->save();
+        // $user = new User();
+        // $user->username = "Kasper";
+        // $user->save();
         
 
 
