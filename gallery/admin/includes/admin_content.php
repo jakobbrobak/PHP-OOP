@@ -20,6 +20,9 @@
 
         // $user->create();
         
+        $user = User::find_user_by_id(2); 
+        $user->last_name = "WILLIAMS";
+        $user->update();
         
 
 
