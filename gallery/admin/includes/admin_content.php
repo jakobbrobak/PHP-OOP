@@ -11,6 +11,8 @@
 
         <?php 
 
+
+
         $user = new User();
 
         $user->username = "Jensen";
@@ -21,7 +23,7 @@
         $user->create();
         
         // $user = User::find_user_by_id(4); 
-        // $user->password = "12345";
+        // $user->password = "dadadad";
         // $user->save();
         
 
