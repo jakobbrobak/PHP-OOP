@@ -11,19 +11,42 @@
 
         <?php 
 
+        // $photo = new Photo();
+
+        // $photo->title = "Line";
+        // $photo->description = "Billede af Line";
+        // $photo->filename = "Billede af Line";
+        // $photo->type = "JPG";
+        // $photo->size = "5 MB";
+
+        // $photo->create();
+
+        // $photos = Photo::find_all(); 
+        //     foreach ($photos as $photo) {
+        //     echo $photo->title . "<br>"; 
+        // }
+
+        echo __DIR__ . "<br>";
+
+        echo INCLUDES_PATH . "<br>";
+
+        echo SITE_ROOT . "<br>";
 
 
-        $user = new User();
 
-        $user->username = "Jensen";
-        $user->password = "adsf";
-        $user->first_name = "Hans";
-        $user->last_name = "Petersen";
+        // $user = new User();
 
-        $user->create();
+        // $user->username = "NEW USER";
+        // $user->password = "adsf";
+        // $user->first_name = "Hans";
+        // $user->last_name = "Petersen";
+
+        // $user->create();
         
-        // $user = User::find_user_by_id(4); 
-        // $user->password = "dadadad";
+        // $users = User::find_all(); 
+        // foreach ($users as $user) {
+        //     echo $user->username;
+        // }
         // $user->save();
         
 
